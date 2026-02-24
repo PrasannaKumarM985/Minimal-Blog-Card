@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap"
+      rel="stylesheet"
+    />
+
+    <style>
+      * {
+        font-family: "Sora", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: weight;
+        font-style: normal;
+      }
+
+      .container {
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .container > div {
+        width: 336px;
+      }
+
+      .img {
+        max-width: 336px;
+        height: 152px;
+        width: 336px;
+        border-radius: 10px;
+        object-fit: cover;
+        overflow: hidden;
+      }
+
+      .tag {
+        margin: 0px;
+        max-width: fit-content;
+        text-align: center;
+        width: 336px;
+        background-color: #f2eafd;
+        color: #7c19ee;
+        padding: 10px 16px;
+        border-radius: 50px;
+        font-size: 10px;
+      }
+
+      .title {
+        font-size: 18px;
+        font-weight: bold;
+        margin-bottom: 6px;
+      }
+
+      .body {
+        font-size: 14px;
+        margin-bottom: 20px;
+      }
+
+      .smalltext {
+        font-size: 12px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="img">
+        <img src="./resources/Cactus.jpg" alt="Cactus" />
+      </div>
+      <div style="margin: 16px">
+        <div class="tag">Design</div>
+      </div>
+      <div class="title">Embracing Minimalism</div>
+      <div class="body">
+        From minimalist sculptures to minimalist paintings, this blog will
+        inspire you to appreciate the beauty that lies in simplicity.
+      </div>
+      <div class="smalltext">Annie Spratt</div>
+    </div>
+  </body>
+</html>
